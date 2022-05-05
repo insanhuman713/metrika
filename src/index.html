@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовый с Yandex метрикой</title>
+    <link rel="stylesheet" href="css/my.css">
+    <!-- Yandex.Metrika counter -->
+<script>
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(88707858, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/88707858" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+        <div class="container">
+            <h1>Магазин антисептиков</h1>
+            <div class="products">
+
+                <div class="product">
+                    <img src="img/Rectangle(1).png" alt="Антисептик" class="product__img">
+                    <h3 class="product__title">Антисептик</h3>
+                    <p class="product__descr">Распыляется как аэрозоль и уничтожает до 99% вирусов и бактерий</p>
+                    <div class="product__footer">
+                        <p class="product__price">230 руб.</p>
+                        <button class="product__buttom" >Купить</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Rectangle.png" alt="увлажняющее крем-мыло" class="product__img">
+                    <h3 class="product__title">Крем-мыло Dr.Elert</h3>
+                    <p class="product__descr">Антибактериальное увлажняющее крем-мыло Dr.Elert, подходит для всех типов кожи</p>
+                    <div class="product__footer">
+                        <p class="product__price">190 руб.</p>
+                        <button class="product__buttom" >Купить</button>
+                    </div>
+                </div>
+                <div class="product"> 
+                    <img src="img/Rectangle(3).png" alt="Мыло с триклозаном" class="product__img">
+                    <h3 class="product__title">Мыло с триклозаном</h3>
+                    <p class="product__descr">Антибактериальное жидкое мыло с триклозаном, которое подойдет и для детей</p>
+                    <div class="product__footer">
+                        <p class="product__price">250 руб.</p>
+                        <button class="product__buttom" >Купить</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Rectangle(2).png" alt="Конистра с мылом" class="product__img">
+                    <h3 class="product__title">Жидкое мыло в конистре</h3>
+                    <p class="product__descr">Жидкое мыло в конистре с триклозаном в объеме 2 литра, выгодное приобретение</p>
+                    <div class="product__footer">
+                        <p class="product__price">600 руб.</p>
+                        <button class="product__buttom" >Купить</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    <footer>
+        <div class="overlay">
+            <div class="modal modal__form">
+                <div class="modal__close modal__close_form">&times;</div>
+                <div class="modal__title">Спасибо, что выбрали наш продукт</div>
+                <div class="modal__subtitle">Для покупки пожалуйста заполните форму</div>
+                <form class="form__form form__form_mt25">
+                    <input type="text" name="product"  class="form__text form__text-product" readonly>
+                    <input type="text" name="name"  class="form__text" placeholder="Ваше имя">
+                    <input type="tel" name="tel" class="form__tel" placeholder=" Ваш телефон">
+                    <input type="email" name="email" class="form__email" placeholder="Ваш E-mail">
+                    <button class="button__signup" type="submit">Заказать</button>
+                </form>
+                <div class="warning"></div>
+            </div>
+            <div class="modal modal__message">
+                <div class=" modal__close modal__close_message">&times;</div>
+                    <div class="modal__title"></div>
+                </div>
+            </div>
+            <script src="js/index.js"></script>
+            <script src="js/ajax.js"></script>
+    </footer>
+
+</body>
+</html>
